@@ -1,0 +1,606 @@
+fileFormatVersion: 2
+guid: 9d2563c4f2078cf4294bae418fecb96c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1802727461949297095
+    second: Totem_Attack_0
+  - first:
+      213: 7227251430116303304
+    second: Totem_Attack_1
+  - first:
+      213: 6008515611150121098
+    second: Totem_Attack_2
+  - first:
+      213: -2952180963134828008
+    second: Totem_Attack_3
+  - first:
+      213: 8752853354868598194
+    second: Totem_Attack_4
+  - first:
+      213: -1466707926759225383
+    second: Totem_Attack_5
+  - first:
+      213: -8822914197757427414
+    second: Totem_Attack_6
+  - first:
+      213: -8506755429862777868
+    second: Totem_Attack_7
+  - first:
+      213: 1362128422643671818
+    second: Totem_Attack_8
+  - first:
+      213: -690184235943861541
+    second: Totem_Attack_9
+  - first:
+      213: 2697022241923196668
+    second: Totem_Attack_10
+  - first:
+      213: 2741572009851629027
+    second: Totem_Attack_11
+  - first:
+      213: 6130094058464549392
+    second: Totem_Attack_12
+  - first:
+      213: -3231139658240017040
+    second: Totem_Attack_13
+  - first:
+      213: -6568784639685896146
+    second: Totem_Attack_14
+  - first:
+      213: -5124345489792659648
+    second: Totem_Attack_15
+  - first:
+      213: 3398434256327781633
+    second: Totem_Attack_16
+  - first:
+      213: -4786791559368709809
+    second: Totem_Attack_17
+  - first:
+      213: -4393263834906626446
+    second: Totem_Attack_18
+  - first:
+      213: 7327354809107444889
+    second: Totem_Attack_19
+  - first:
+      213: -5996760584291512109
+    second: Totem_Attack_20
+  - first:
+      213: -4599482512292559219
+    second: Totem_Attack_21
+  - first:
+      213: 5718841765484156475
+    second: Totem_Attack_22
+  - first:
+      213: -8478574771122836654
+    second: Totem_Attack_23
+  - first:
+      213: 7115854955906429192
+    second: Totem_Attack_24
+  - first:
+      213: 4848453838397720344
+    second: Totem_Attack_25
+  - first:
+      213: -5517269684904012564
+    second: Totem_Attack_26
+  - first:
+      213: -7529437578944472033
+    second: Totem_Attack_27
+  - first:
+      213: 6963666116510299939
+    second: Totem_Attack_28
+  - first:
+      213: -1422362174693136669
+    second: Totem_Attack_29
+  - first:
+      213: -7412256628982011268
+    second: Totem_Attack_30
+  - first:
+      213: -5773502068647936511
+    second: Totem_Attack_31
+  - first:
+      213: -3735459913011507533
+    second: Totem_Attack_32
+  - first:
+      213: -1562725593999568140
+    second: Totem_Attack_33
+  - first:
+      213: -9174135774985513173
+    second: Totem_Attack_34
+  - first:
+      213: 6406186885190202102
+    second: Totem_Attack_35
+  - first:
+      213: -5447602038685648768
+    second: Totem_Attack_36
+  - first:
+      213: -7240934016630658604
+    second: Totem_Attack_37
+  - first:
+      213: -3421317946757061357
+    second: Totem_Attack_38
+  - first:
+      213: 6962204763237703801
+    second: Totem_Attack_39
+  - first:
+      213: -4870925042737965755
+    second: Totem_Attack_40
+  - first:
+      213: -3517863246367649573
+    second: Totem_Attack_41
+  - first:
+      213: 4352595279306186272
+    second: Totem_Attack_42
+  - first:
+      213: -3827228173290643529
+    second: Totem_Attack_43
+  - first:
+      213: 1414482736827575835
+    second: Totem_Attack_44
+  - first:
+      213: -7532510488572542009
+    second: Totem_Attack_45
+  - first:
+      213: 9194877721873920420
+    second: Totem_Attack_46
+  - first:
+      213: 1947145936321248265
+    second: Totem_Attack_47
+  - first:
+      213: 5960360219127961066
+    second: Totem_Attack_48
+  - first:
+      213: 3169218756204590137
+    second: Totem_Attack_49
+  - first:
+      213: 6004739429633664135
+    second: Totem_Attack_50
+  - first:
+      213: 2503039352292760120
+    second: Totem_Attack_51
+  - first:
+      213: -7894275901148391427
+    second: Totem_Attack_52
+  - first:
+      213: -8407940137283421433
+    second: Totem_Attack_53
+  - first:
+      213: 3203253037917022021
+    second: Totem_Attack_54
+  - first:
+      213: -8346190461394661611
+    second: Totem_Attack_55
+  - first:
+      213: -6529908911278965713
+    second: Totem_Attack_56
+  - first:
+      213: -2106458943249540317
+    second: Totem_Attack_57
+  - first:
+      213: -1810811835114009208
+    second: Totem_Attack_58
+  - first:
+      213: 29092886207384453
+    second: Totem_Attack_59
+  - first:
+      213: -8773782546660485849
+    second: Totem_Attack_60
+  - first:
+      213: 8506655637702877987
+    second: Totem_Attack_61
+  - first:
+      213: -7695384369908396342
+    second: Totem_Attack_62
+  - first:
+      213: -2310033372404979120
+    second: Totem_Attack_63
+  - first:
+      213: 1698079933277514798
+    second: Totem_Attack_64
+  - first:
+      213: 4787135895031227887
+    second: Totem_Attack_65
+  - first:
+      213: 552989033638941281
+    second: Totem_Attack_66
+  - first:
+      213: 3467288570165536729
+    second: Totem_Attack_67
+  - first:
+      213: -2747658897455339861
+    second: Totem_Attack_68
+  - first:
+      213: 6656930910255938076
+    second: Totem_Attack_69
+  - first:
+      213: 8355089377653634666
+    second: Totem_Attack_70
+  - first:
+      213: 8903157833954091094
+    second: Totem_Attack_71
+  - first:
+      213: 1706343015213149743
+    second: Totem_Attack_72
+  - first:
+      213: -834585004729341134
+    second: Totem_Attack_73
+  - first:
+      213: 2057942190289144021
+    second: Totem_Attack_74
+  - first:
+      213: 3469311224719080759
+    second: Totem_Attack_75
+  - first:
+      213: 3916585768185511939
+    second: Totem_Attack_76
+  - first:
+      213: -1673454858710480712
+    second: Totem_Attack_77
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Totem_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 38
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93eaba3bcec6bf6e0800000000000000
+      internalID: -1802727461949297095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Totem_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 38
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1248252ea5c4460800000000000000
+      internalID: 7227251430116303304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Totem_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 38
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88fdf52d19826350800000000000000
+      internalID: 6008515611150121098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Totem_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 38
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8129dab2e0fb707d0800000000000000
+      internalID: -2952180963134828008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Totem_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 38
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5670c60c1687970800000000000000
+      internalID: 8752853354868598194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Totem_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 38
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7444c59e435abe0800000000000000
+      internalID: -1466707926759225383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Totem_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a210bee6846be8580800000000000000
+      internalID: -8822914197757427414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Totem_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb57ebd10fe1f980800000000000000
+      internalID: -8506755429862777868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Totem_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03a322659047e210800000000000000
+      internalID: 1362128422643671818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Totem_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2edfa1819fb66f0800000000000000
+      internalID: -690184235943861541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Totem_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6e829807fbd6520800000000000000
+      internalID: 2697022241923196668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Totem_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed2c5da7350c0620800000000000000
+      internalID: 2741572009851629027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
