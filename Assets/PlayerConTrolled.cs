@@ -9,7 +9,7 @@ public class PlayerConTrolled : MonoBehaviour
 {
     [SerializeField] Rigidbody2D movement, blastbody;
     [SerializeField] float nopeus = 0.0f, dashnopeus = 0.0f, sprinting = 0.0f;
-    [SerializeField] GameObject arrow, blast;
+    [SerializeField] GameObject arrow, blast, slider1,slider2, text1,text2;
     [SerializeField] Rigidbody2D arrowbody;
     [SerializeField] float arrowspeed = 0.0f, blastspeed = 0.0f;
     [SerializeField] float shootcd = 0.0f, dashcd = 0.0f;
@@ -29,6 +29,10 @@ public class PlayerConTrolled : MonoBehaviour
         blastaroundtime = 3;
         dashcd = 5;
         playeranimator = GetComponent<Animator>();
+        slider1.SetActive(false);
+        slider2.SetActive(false);
+        text1.SetActive(false);
+        text2.SetActive(false);
     }
     void OnTriggerEnter2D(Collider2D other) 
     {
@@ -124,7 +128,6 @@ public class PlayerConTrolled : MonoBehaviour
     }
     void Update()
     {   
-        Debug.Log(state);
         staminaslider.value = sprinting;
         dashcooldownslide.value = dashcd;
         blastcooldownslider.value = blastaroundtime;
@@ -135,12 +138,17 @@ public class PlayerConTrolled : MonoBehaviour
             if(Input.GetButtonDown("Fire2"))
             {
                 if(dashcd > 5)
-                {                
+                {   
+                    text2.SetActive(true);
+                    slider2.SetActive(true);       
                     state = "dash";
                     dashcd = 0;
                     Invoke("SetToIdle", 0.2f);
                 }
+                
             }
+            if (dashcd > 5)
+            {slider2.SetActive(false);text2.SetActive(false);}
         }
         if(dashcd < 5)
         {
@@ -191,8 +199,13 @@ public class PlayerConTrolled : MonoBehaviour
                 blastaround(Vector3.up + Vector3.right);
                 blastaround(Vector3.right);
                 blastaroundtime = 0;
+                slider1.SetActive(true);
+                text1.SetActive(true);
             }
+            
         }
+        if (blastaroundtime > 5)
+            {slider1.SetActive(false);text1.SetActive(false);}
         if(state == "idle")
         {
             inputcheck();

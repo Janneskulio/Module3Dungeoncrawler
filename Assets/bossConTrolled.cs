@@ -5,7 +5,7 @@ using UnityEngine;
 public class bossConTrolled : MonoBehaviour
 {
     [SerializeField] GameObject player, wisp;
-    [SerializeField] float wispspeed = 0.0f, wispAfterSpeed = 0.0f, wispshootcd = 0.0f;
+    [SerializeField] float wispspeed = 0.0f, wispshootcd = 0.0f;
     [SerializeField] Rigidbody2D wispbody;
     [SerializeField] int bosshp = 1000;
     Animator bossanimator;

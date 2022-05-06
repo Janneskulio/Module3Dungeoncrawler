@@ -16,49 +16,46 @@ public class GameConTrolled : MonoBehaviour
     [SerializeField] Text scoretext;
     [SerializeField] int score = 0, waveamount = 0;
     public int playerhp = 300;
-    [SerializeField] Text playerhptext, wavetext, gameover;
+    [SerializeField] Text playerhptext, wavetext;
     [SerializeField] Slider Wave, playerhpslider;
-    [SerializeField] GameObject restart;
     void Start()
     {
         instance = this;
-        gameover.enabled = false;
-        restart.SetActive(false);
         Time.timeScale = 1;
     }
     void BossSpawner()
     {
-        var spot = new Vector3(0,20, 0);
+        var spot = new Vector3(0,20, -0.01f);
         GameObject BossInst = Instantiate(bossenemy, spot, Quaternion.identity);
     }
     void enemyspawner()
     {
-        var alue = new Vector3(Random.Range(35,-35),Random.Range(20, -15),0);
+        var alue = new Vector3(Random.Range(35,-35),Random.Range(20, -15),-0.01f);
         GameObject EnemySpawner = Instantiate(enemy,alue,Quaternion.identity);
 
     }
     void enemysecondspawner()
     {
-        var alue = new Vector3(Random.Range(35,-35),Random.Range(20, -15),0);
+        var alue = new Vector3(Random.Range(35,-35),Random.Range(20, -15),-0.01f);
         GameObject enemysecondspawn = Instantiate(enemysecond,alue,Quaternion.identity);
 
     }
     void spiritspawner()
     {
-        var alue = new Vector3(Random.Range(35,-35),Random.Range(20, -15),0);
+        var alue = new Vector3(Random.Range(35,-35),Random.Range(20, -15),-0.01f);
         GameObject spiritspawn = Instantiate(spirit,alue,Quaternion.identity);
     }
     void shadowenemyspawner()
     {
-        var alue = new Vector3(Random.Range(35,-35),Random.Range(20, -15),0);
-        GameObject shadowspawn = Instantiate(shadowenemy,alue,Quaternion.identity);
+        var alue = new Vector3(Random.Range(35,-35),Random.Range(20, -15),-0.01f);
+        GameObject shadowspawn = Instantiate(shadowenemy,alue ,Quaternion.identity);
     }
     void Update()
     {
         playerhpslider.value = playerhp;
         Wave.value = instcd;
         instcd += 1 * Time.deltaTime;
-        if(waveamount == 20 || waveamount == 25)
+        if(waveamount == 20 || waveamount == 25 || waveamount == 30)
         {
             Wave.maxValue = 40;    
             if(instcd >40)
@@ -74,10 +71,7 @@ public class GameConTrolled : MonoBehaviour
         }
         if(playerhp < 10)
         {
-            var terve  = restart.GetComponent<Button>();
-            restart.SetActive(true);
-            gameover.enabled = true; 
-            Time.timeScale = 0;
+            SceneManager.LoadScene("Dead");
         }
     }
     public void addScore(int AddToScore)
@@ -93,7 +87,7 @@ public class GameConTrolled : MonoBehaviour
     void AddEnemy()
     {
         waveamount += 1;
-        if(waveamount == 20 || waveamount == 25)
+        if(waveamount == 20 || waveamount == 25 || waveamount == 30)
         {
             for (int i = 0; i < eneboss; i++)
             {
