@@ -98,7 +98,7 @@ public class PlayerConTrolled : MonoBehaviour
         Vector3 location = transform.position;
         GameObject blastingaround = Instantiate(blast,location, Quaternion.identity);
         blastbody = blastingaround.GetComponent<Rigidbody2D>();
-        blastbody.AddForce(blastdirection.normalized * blastspeed * Time.fixedDeltaTime);
+        blastbody.AddForce(blastdirection.normalized * blastspeed * Time.deltaTime);
         Destroy(blastingaround, 3);
     }
     void shootarrows(Vector3 voay)
@@ -106,7 +106,7 @@ public class PlayerConTrolled : MonoBehaviour
         Vector3 location = transform.position;
         GameObject shootingarrow = Instantiate(arrow,location,Quaternion.identity);
         arrowbody = shootingarrow.GetComponent<Rigidbody2D>();
-        arrowbody.AddForce(voay.normalized * arrowspeed * Time.fixedDeltaTime);
+        arrowbody.AddForce(voay.normalized * arrowspeed * Time.deltaTime);
         Destroy(shootingarrow,2);
     }
     void flipanimation()
@@ -248,7 +248,7 @@ public class PlayerConTrolled : MonoBehaviour
         if(shootcd < 0)
         {                        
             shootarrows(Vector3.right);
-            shootcd= 2;
+            shootcd= 0.5f;
             if(powerup.activeSelf == false)
             {
                 shootarrows(Vector3.up);
@@ -263,7 +263,7 @@ public class PlayerConTrolled : MonoBehaviour
             }            
             if(powerup3.activeSelf == false)
             {
-                shootcd = 1;
+                shootcd = 0.2f;
             }
             if(speedpowerup.activeSelf == false)
             {
